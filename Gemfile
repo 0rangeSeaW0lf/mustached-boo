@@ -10,7 +10,6 @@ gem "middleman-livereload", ">= 3.1.0"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 5.0.0.beta1'
-gem 'compass-rails'
 
 #Use Bootstrap Sass
 gem 'bootstrap-sass'

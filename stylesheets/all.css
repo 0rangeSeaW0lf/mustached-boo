@@ -1,0 +1,48 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.bg {
+  background-color: #E0E4CC;
+}
+
+.foot {
+  padding: 0;
+  margin: 0;
+}
+
+.head {
+  border-radius: 0;
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 10px;
+}
+.booyah-box h1, .booyah-box h2 {
+  margin: 10px;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aligner-item {
+  max-width: 50%;
+}
