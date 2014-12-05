@@ -45,3 +45,6 @@ gem 'spring',        group: :development
 
 #Use Middle-Man to create GitHub page
 gem 'middleman-gh-pages'
+
+#Use Puma multi-threat server
+gem 'puma'
