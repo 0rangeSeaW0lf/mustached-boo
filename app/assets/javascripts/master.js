@@ -16,12 +16,16 @@ $(document).ready(function(){
         $('.X').text(x);
         $('.Y').text(y);
         
-        if($(this).hasClass("plus")) {
-            z = x + y
-            $('.Z').text(z);
+        if(x===false || y===false){
+            alert("Error! Check that X and Y are integers!");
         } else {
-            z = x - y
-            $('.Z').text(z);
+            if($(this).hasClass("plus")) {
+                z = x + y
+                $('.Z').text(z);
+            } else {
+                z = x - y
+                $('.Z').text(z);
+            }
         }
     });
 });
