@@ -8,6 +8,9 @@ gem "middleman", ">= 3.3.7"
 # Live-reloading plugin
 gem "middleman-livereload", ">= 3.1.0"
 
+#Deploy website
+gem 'middleman-deploy', '~> 1.0'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 5.0.0.beta1'
 
