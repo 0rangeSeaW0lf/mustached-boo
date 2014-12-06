@@ -29,10 +29,12 @@
 .site {
   display: flex;
   min-height: 100vh;
+  -webkit-flex-direction: column;
   flex-direction: column;
 }
 
 .site-content {
+  -webkit-flex: 1;
   flex: 1;
 }
 
